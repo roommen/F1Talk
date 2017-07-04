@@ -1,0 +1,23 @@
+Pos	Driver	AUS	CHI	BAH	RUS	SPA	MON	CAN	AZE	OOS	BRI	HUN	BEL	ITA	SIN	MAL	JAP	USA	MEX	BRA	ABU	Pts
+1	Sebastian Vettel	1	2	1	2	2	1	4	4	 	 	 	 	 	 	 	 	 	 	 	 	153
+2	Lewis Hamilton	2	1	2	4	1	7	1	5	 	 	 	 	 	 	 	 	 	 	 	 	139
+3	Valtteri Bottas	3	6	3	1	Ret	4	2	2	 	 	 	 	 	 	 	 	 	 	 	 	111
+4	Daniel Ricciardo	Ret	4	5	Ret	3	3	3	1	 	 	 	 	 	 	 	 	 	 	 	 	92
+5	Kimi Räikkönen	4	5	4	3	Ret	2	7	Ret	 	 	 	 	 	 	 	 	 	 	 	 	73
+6	Max Verstappen	5	3	Ret	5	Ret	5	Ret	Ret	 	 	 	 	 	 	 	 	 	 	 	 	45
+7	Sergio Pérez	7	9	7	6	4	13	5	Ret	 	 	 	 	 	 	 	 	 	 	 	 	44
+8	Esteban Ocon	10	10	10	7	5	12	6	6	 	 	 	 	 	 	 	 	 	 	 	 	35
+9	Carlos Sainz Jr.	8	7	Ret	10	7	6	Ret	8	 	 	 	 	 	 	 	 	 	 	 	 	29
+10	Felipe Massa	6	14	6	9	13	9	Ret	Ret	 	 	 	 	 	 	 	 	 	 	 	 	20
+11	Nico Hülkenberg	11	12	9	8	6	Ret	8	Ret	 	 	 	 	 	 	 	 	 	 	 	 	18
+12	Lance Stroll	Ret	Ret	Ret	11	16	14	9	3	 	 	 	 	 	 	 	 	 	 	 	 	17
+13	Kevin Magnussen	Ret	8	Ret	13	14	10	12	7	 	 	 	 	 	 	 	 	 	 	 	 	11
+14	Romain Grosjean	Ret	11	8	Ret	10	8	10	13	 	 	 	 	 	 	 	 	 	 	 	 	10
+15	Pascal Wehrlein	 	 	11	16	8	Ret	15	10	 	 	 	 	 	 	 	 	 	 	 	 	5
+16	Daniil Kvyat	9	Ret	12	12	9	15	Ret	Ret	 	 	 	 	 	 	 	 	 	 	 	 	4
+17	Fernando Alonso	Ret	Ret	Ret	DNS	12	 	Ret	9	 	 	 	 	 	 	 	 	 	 	 	 	2
+18	Jolyon Palmer	Ret	13	13	Ret	15	11	11	Ret	 	 	 	 	 	 	 	 	 	 	 	 	0
+19	Marcus Ericsson	Ret	15	Ret	15	11	Ret	13	11	 	 	 	 	 	 	 	 	 	 	 	 	0
+20	Stoffel Vandoorne	13	Ret	DNS	14	Ret	Ret	14	12	 	 	 	 	 	 	 	 	 	 	 	 	0
+21	Antonio Giovinazzi	12	Ret	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	0
+22	Jenson Button	 	 	 	 	 	Ret	 	 	 	 	 	 	 	 	 	 	 	 	 	 	0
