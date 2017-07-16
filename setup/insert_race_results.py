@@ -21,7 +21,29 @@ def insert_race_result(race_results):
 def main():
     race_results = [('Sebastian Vettel', 'Australia', '1', '2017'),
                     ('Sebastian Vettel', 'China', '2', '2017'),
-                    ('Sebastian Vettel', 'Bahrain', '1', '2017')]
+                    ('Sebastian Vettel', 'Bahrain', '1', '2017'),
+                    ('Sebastian Vettel', 'Russia', '2', '2017'),
+                    ('Sebastian Vettel', 'Spain', '2', '2017'),
+                    ('Sebastian Vettel', 'Monaco', '1', '2017'),
+                    ('Sebastian Vettel', 'Canada', '4', '2017'),
+                    ('Sebastian Vettel', 'Azerbaijan', '4', '2017'),
+                    ('Lewis Hamilton', 'Australia', '2', '2017'),
+                    ('Lewis Hamilton', 'China', '2', '2017'),
+                    ('Lewis Hamilton', 'Bahrain', '2', '2017'),
+                    ('Lewis Hamilton', 'Russia', '4', '2017'),
+                    ('Lewis Hamilton', 'Spain', '1', '2017'),
+                    ('Lewis Hamilton', 'Monaco', '7', '2017'),
+                    ('Lewis Hamilton', 'Canada', '1', '2017'),
+                    ('Lewis Hamilton', 'Azerbaijan', '5', '2017'),
+                    ('Valtteri Bottas', 'Australia', '3', '2017'),
+                    ('Valtteri Bottas', 'China', '6', '2017'),
+                    ('Valtteri Bottas', 'Bahrain', '3', '2017'),
+                    ('Valtteri Bottas', 'Russia', '1', '2017'),
+                    ('Valtteri Bottas', 'Spain', 'Ret', '2017'),
+                    ('Valtteri Bottas', 'Monaco', '4', '2017'),
+                    ('Valtteri Bottas', 'Canada', '2', '2017'),
+                    ('Valtteri Bottas', 'Azerbaijan', '2', '2017')
+                    ]
     insert_race_result(race_results)
 
 
