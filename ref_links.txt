@@ -1,0 +1,3 @@
+Using Python with AWS Lambda - https://gist.github.com/rickpeyton/e95843c96620ff581d0c80d6a2c3adb3
+Creating a Deployment Package (Python) - http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html
+Chatbot Slide - https://www.slideshare.net/CodeOps/building-a-chatbot-step-by-step
