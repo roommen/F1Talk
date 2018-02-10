@@ -1,9 +1,10 @@
-import MySQLdb
-from connection_string import cnx_str
+import mysql.connector
+from common.CommonDefs import cnx_str
 
 
 def drop_race_results():
-    connection = MySQLdb.connect(cnx_str['host'], cnx_str['username'], cnx_str['password'], cnx_str['db'])
+    connection = mysql.connector.connect(host=cnx_str['host'], user=cnx_str['username'],
+                                             password=cnx_str['password'], database=cnx_str['db'])
 
     try:
         cursor = connection.cursor()
