@@ -1,33 +1,38 @@
-import MySQLdb
-import logging
-from connection_string import cnx_str
-
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+import mysql.connector
+from common.CommonDefs import cnx_str
 
 
-def select_race_results():
-    connection = MySQLdb.connect(cnx_str['host'], cnx_str['username'], cnx_str['password'], cnx_str['db'])
-
+def get_winner(grand_prix):
+    con, cur, data = None, None, None
     try:
-        cursor = connection.cursor()
-        cursor.execute('SELECT driver_name from race_results where race_results.year = "2017" AND '
-                       'race_results.circuit_name = "Spain" AND race_results.position = "1";')
-        row = cursor.fetchone()
-        print(row)
+        con = mysql.connector.connect(host=cnx_str['host'], user=cnx_str['username'],
+                                      password=cnx_str['password'], database=cnx_str['db'])
 
-        # cursor.execute('SELECT * from race_results;')
-        # row = cursor.fetchone()
-        # print("Retrieving data from race_results")
-        # while row is not None:
-        #     print(row)
-        #     row = cursor.fetchone()
-    except IndexError:
-        print('Unexpected error occurred')
+        # Get the winner based on grand prix
+        query = "SELECT winner FROM f1.race_results WHERE grand_prix='%s';" % grand_prix
+        cur = con.cursor()
+        cur.execute(query)
+        (winner, ) = cur.fetchall()
+
+        if winner:
+            # print({"winner": winner[0]})
+            return {"winner": winner[0]})
+        else:
+            # print({"winner": "false"})
+            return {"winner": "false"}
+    except mysql.connector.Error as err:
+        # print({"winner": err})
+        return {"winner": err}
     finally:
-        cursor.close()
-        connection.close()
+        if con:
+            con.close()
+        if cur:
+            cur.close()
 
+# if __name__ == '__main__':
+#     grand_prix = 'Chinese'
+#     get_winner(grand_prix)
 
-if __name__ == '__main__':
-    select_race_results()
+def lambda_handler(event, context):
+    grand_prix = event['gp']
+    return get_winner(grand_prix)

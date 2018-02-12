@@ -1,13 +1,7 @@
-RACE:
-*****
---DRIVER_NAME
---CIRCUIT_NAME
---POSITION
---YEAR
-
-
-POINTS:
-*******
---DRIVER_NAME
---TOTAL_POINTS
---YEAR
+RACE_RESULTS:
+*************
+grand_prix VARCHAR(30)
+race_date VARCHAR(20)
+winner VARCHAR(50)
+car VARCHAR(25)
+laps VARCHAR(11)
